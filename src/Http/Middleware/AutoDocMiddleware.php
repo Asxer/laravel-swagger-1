@@ -1,9 +1,9 @@
 <?php
 
-namespace RonasIT\Support\AutoDoc\Http\Middleware;
+namespace Asxer\Support\AutoDoc\Http\Middleware;
 
 use Closure;
-use RonasIT\Support\AutoDoc\Services\SwaggerService;
+use Asxer\Support\AutoDoc\Services\SwaggerService;
 
 /**
  * @property SwaggerService $service

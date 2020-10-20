@@ -91,14 +91,14 @@ return [
     |
     | Class of data collector, which will collect and save documentation
     | It can be your own data collector class which should be inherited from
-    | RonasIT\Support\AutoDoc\Interfaces\DataCollectorInterface interface,
+    | Asxer\Support\AutoDoc\Interfaces\DataCollectorInterface interface,
     | or our data collectors from next packages:
     |
-    | ronasit/local-data-collector
-    | ronasit/laravel-remote-data-collector
+    | asxer/local-data-collector
+    | asxer/laravel-remote-data-collector
     |
-    | If config not set, will be using ronasit/local-data-collector
+    | If config not set, will be using asxer/local-data-collector
     */
 
-    'data_collector' => \RonasIT\Support\AutoDoc\DataCollectors\LocalDataCollector::class
+    'data_collector' => \Asxer\Support\AutoDoc\DataCollectors\LocalDataCollector::class
 ];

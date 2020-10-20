@@ -1,9 +1,9 @@
 <?php
 
-namespace RonasIT\Support\AutoDoc\Tests;
+namespace Asxer\Support\AutoDoc\Tests;
 
-use RonasIT\Support\AutoDoc\Services\SwaggerService;
-use RonasIT\Support\AutoDoc\Http\Middleware\AutoDocMiddleware;
+use Asxer\Support\AutoDoc\Services\SwaggerService;
+use Asxer\Support\AutoDoc\Http\Middleware\AutoDocMiddleware;
 
 trait AutoDocTestCaseTrait
 {
@@ -14,11 +14,6 @@ trait AutoDocTestCaseTrait
         parent::setUp();
 
         $this->docService = app(SwaggerService::class);
-    }
-
-    public function createApplication()
-    {
-        parent::createApplication();
     }
 
     public function tearDown(): void
