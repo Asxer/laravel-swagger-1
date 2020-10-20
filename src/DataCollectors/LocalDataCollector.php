@@ -3,8 +3,8 @@
 namespace Asxer\Support\AutoDoc\DataCollectors;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use RonasIT\Support\AutoDoc\Interfaces\DataCollectorInterface;
-use RonasIT\Support\AutoDoc\Exceptions\MissedProductionFilePathException;
+use Asxer\Support\AutoDoc\Interfaces\DataCollectorInterface;
+use Asxer\Support\AutoDoc\Exceptions\MissedProductionFilePathException;
 
 class LocalDataCollector implements DataCollectorInterface
 {
